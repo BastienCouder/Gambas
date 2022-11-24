@@ -1,0 +1,94 @@
+body {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 1.2em;
+    color: white;
+}
+
+h1,h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: url('img/gambasback.webp');
+    opacity: 90%;
+    width: 100%;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    box-shadow: 0px 2px 4px black;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    align-items: center;
+
+}
+
+nav a {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2em;
+    margin: 50px;
+    text-decoration: none;
+}
+
+article {
+    height: auto;
+    background-color: #3DA9E6;
+    padding: 10px;
+}
+
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.8em;
+    width: 60%;
+    margin: auto;
+
+}
+
+ul {
+    font-size: 1.7em;
+    display: flex;
+    padding-left: 22%;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 5%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 1.6em;
+    width: auto;
+    margin: auto;
+    padding-left: 15px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
